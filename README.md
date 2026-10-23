@@ -28,7 +28,19 @@ Finding relevant vulnerabilities in a large catalogue can be time-consuming. Vul
 
 ## Project Status
 
-Currently in development. Features will be implemented incrementally.
+## Current Progress
+
+- [x] Read the CISA Known Exploited Vulnerabilities (KEV) catalogue CSV using Python.
+- [ ] Count and inspect vulnerability records.
+- [ ] Search vulnerabilities by CVE ID.
+- [ ] Validate and clean vulnerability data.
+- [ ] Store records in SQLite.
+- [ ] Build REST API endpoints using FastAPI.
+- [ ] Add automated tests using pytest.
+- [ ] Explore AI-powered search with source citations.
+
+The project is currently in development, with features being implemented incrementally.
+
 
 ## Data Source
 
